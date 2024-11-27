@@ -12,4 +12,3 @@ export default function handleResponseFromAPI(promise) {
       return new Error();
     });
 }
-
