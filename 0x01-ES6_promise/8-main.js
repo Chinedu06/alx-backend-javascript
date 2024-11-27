@@ -1,4 +1,4 @@
-import divideFunction from './8-try.js';
+import divideFunction from './8-try';
 
 try {
   console.log(divideFunction(10, 2)); // Should print: 5
@@ -11,4 +11,3 @@ try {
 } catch (error) {
   console.error(`Error: ${error.message}`); // Should print: Error: cannot divide by 0
 }
-
