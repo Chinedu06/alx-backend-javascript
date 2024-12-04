@@ -6,9 +6,9 @@ export default function updateUniqueItems(map) {
     throw new Error('Cannot process');
   }
 
-  for (let [key, value] of map) {
+  for (let [const, value] of map) {
     if (value === 1) {
-      map.set(key, 100);
+      map.set(const, 100);
     }
   }
 
